@@ -13,7 +13,9 @@ function App() {
     <div className="App">
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="fiesty one you are!" name="Mike" age="32" />
+      <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/>
       <StatefulGreetingWithPrevState />
+      <StatefulGreetingWithCallback />
       <NavBarSimple />
       <Sidebar />
     </div>
