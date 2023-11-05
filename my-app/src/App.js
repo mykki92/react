@@ -5,23 +5,17 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
 import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
-
-
-//function App() {
-//  return (
-//    <div className="App">
-//      <FunctionalGreeting />
-//      <FunctionalGreetingWithProps greeting="fiesty one you are!" name="Mike" age="32" />
-//    </div>
-//  );
-//}
-
-//export default App;
+import NavBarSimple from "./components/NavBarSimple";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div className="App">
+      <FunctionalGreeting />
+      <FunctionalGreetingWithProps greeting="fiesty one you are!" name="Mike" age="32" />
       <StatefulGreetingWithPrevState />
+      <NavBarSimple />
+      <Sidebar />
     </div>
   );
 }
