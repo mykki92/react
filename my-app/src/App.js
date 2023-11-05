@@ -5,7 +5,7 @@ import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithPrevState from "./components/StatefulGreetingWithPrevState";
 import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
-import NavBarSimple from "./components/NavBarSimple";
+// import NavBarSimple from "./components/NavBarSimple";
 import NavBarForm from "./components/NavBarForm";
 import Sidebar from "./components/Sidebar";
 import EventsClass from "./components/EventsClass";
@@ -15,6 +15,8 @@ import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 import NestingComponents from "./components/NestingComponents";
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+import RenderingLists from "./components/RenderingLists";
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
       <ConditionalRenderingFunctional connected={true} />
       <NestingComponents />
       <MethodsAsPropsParent />
+      <RenderingLists />
+      <Content />
     </div>
   );
 }
