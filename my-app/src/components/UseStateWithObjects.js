@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function UseStateWithObjects() {
-    const [name, setName] = useState({firstName: "", lastName: ""})
+    const [name, setName] = useState({ firstName: "", lastName: "" })
 
     return (
         <div>
@@ -28,4 +28,4 @@ function UseStateWithObjects() {
     )
 }
 
-export default UseStateWithObjects
+export default UseStateWithObjects;
