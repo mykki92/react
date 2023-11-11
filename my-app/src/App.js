@@ -32,6 +32,11 @@ import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseStateWithObjects from "./components/UseStateWithObjects";
 import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+import HTTPRequests from "./components/HTTPRequests";
+import HTTPPost from "./components/HTTPPost";
+import HTTPHooks from "./components/HTTPHooks";
+import ContentAPI from "./components/ContentAPI";
+import ContentAPIHooks from "./components/ContentAPIHooks";
 
 function App() {
   return (
@@ -123,11 +128,26 @@ function App() {
       <h2>RenderingLists</h2>
       <RenderingLists />
       <hr />
+      <h2>HTTPRequests</h2>
+      <HTTPRequests />
+      <hr />
+      <h2>HTTPPost</h2>
+      <HTTPPost />
+      <hr />
+      <h2>HTTPHooks</h2>
+      <HTTPHooks />
+      <hr />
       <h2>Content</h2>
       <Content />
       <hr />
       <h2>ContentHooks</h2>
       <ContentHooks />
+      <hr />
+      <h2>ContentAPI</h2>
+      <ContentAPI />
+      <hr />
+      <h2>ContentAPIHooks</h2>
+      <ContentAPIHooks />
       <hr />
     </div>
   );
